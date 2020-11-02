@@ -6,22 +6,7 @@
 #define LWIP_KSYSCALL_H
 
 int sys_lwip_accept_stub(void *arg);
-
-int sys_lwip_bind_stub(void *arg);
-
-int sys_lwip_shutdown_stub(void *arg);
-
-int sys_lwip_getpeername_stub (void *arg);
-
-int sys_lwip_getsockname_stub (void *arg);
-
-int sys_lwip_getsockopt_stub (void *arg);
-
-int sys_lwip_setsockopt_stub (void *arg);
-
-int sys_lwip_close_stub(void *arg);
-
-int sys_lwip_connect_stub(void *arg);
+stub(void *arg);
 
 int sys_lwip_listen_stub(void *arg);
 
