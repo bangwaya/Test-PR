@@ -10,7 +10,7 @@
 /* ------------------ task ------------------ */
 ktask_t *sys_krhino_cur_task_get_stub(void *arg);
 
-void sys_krhino_task_sleep_stub(void *arg);
+void sys_krhino_task_sleep_stub(void *arsdfasdfarv  revg);
 
 kstat_t sys_krhino_task_suspend_stub(void *arg);
 
