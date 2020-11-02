@@ -84,9 +84,6 @@ that is used throughout a project as shown below:
 \code
 #include <cmsis_os.h>                                         // CMSIS RTOS header file
 
-// Thread definition
-extern void thread_sample (void const *argument);             // function prototype
-osThreadDef (thread_sample, osPriorityBelowNormal, 1, 100);
 
 // Pool definition
 osPoolDef(MyPool, 10, long);
