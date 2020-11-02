@@ -5,17 +5,7 @@
  * Project:      CMSIS-RTOS API
  * Title:        cmsis_os.h RTX header file
  *
- * Version 0.02 aklksmcsjdjd
- *    Initial Proposal Phase
- * Version 0.03
- *    osKernelStart added, optional feature: main started as thread
- *    osSemaphores have standard behavior
- *    osTimerCreate does not start the timer, added osTimerStart
- *    osThreadPass is renamed to osThreadYield
- * Version 1.01
- *    Support for C++ interface
- *     - const attribute removed from the osXxxxDef_t typedef's
- *     - const attribute added to the osXxxxDef macros
+ 
  *    Added: osTimerDelete, osMutexDelete, osSemaphoreDelete
  *    Added: osKernelInitialize
  * Version 1.02
