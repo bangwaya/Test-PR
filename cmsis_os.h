@@ -54,14 +54,6 @@ The file cmsis_os.h contains:
  - macros for defining threads and other kernel objects
 
 
-<b>Name conventions and header file modifications</b>
-
-All definitions are prefixed with \b os to give an unique name space for CMSIS-RTOS functions.
-Definitions that are prefixed \b os_ are not used in the application code but local to this header file.
-All definitions and functions that belong to a module are grouped and have a common prefix, i.e. \b osThread.
-
-Definitions that are marked with <b>CAN BE CHANGED</b> can be adapted towards the needs of the actual CMSIS-RTOS implementation.
-These definitions can be specific to the underlying RTOS kernel.
 
 Definitions that are marked with <b>MUST REMAIN UNCHANGED</b> cannot be altered. Otherwise the CMSIS-RTOS implementation is no longer
 compliant to the standard. Note that some functions are optional and need not to be provided by every CMSIS-RTOS implementation.
