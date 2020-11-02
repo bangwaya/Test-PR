@@ -7,12 +7,7 @@
  *
  
  *    Added: osTimerDelete, osMutexDelete, osSemaphoreDelete
- *    Added: osKernelInitialize
- * Version 1.02
- *    Control functions for short timeouts in microsecond resolution:
- *    Added: osKernelSysTick, osKernelSysTickFrequency, osKernelSysTickMicroSec
- *    Removed: osSignalGet 
- *----------------------------------------------------------------------------
+ *    Ad------------------------------------
  *
  * Copyright (c) 2013 ARM LIMITED
  * All rights reserved.
