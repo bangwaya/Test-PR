@@ -5,7 +5,7 @@
  * Project:      CMSIS-RTOS API
  * Title:        cmsis_os.h RTX header file
  *
- * Version 0.02
+ * Version 0.02 aklksmcsjdjd
  *    Initial Proposal Phase
  * Version 0.03
  *    osKernelStart added, optional feature: main started as thread
