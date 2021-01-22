@@ -29,14 +29,7 @@ void sys_krhino_uprocess_exit_stub(void *arg);
 
 void sys_krhino_uprocess_res_get_stub(void *arg);
 
-/* ------------------- time ------------------ */
-void sys_krhino_sys_tick_get_stub(void *arg);
 
-void sys_krhino_sys_time_get_stub(void *arg);
-
-void sys_krhino_ms_to_ticks_stub(void *arg);
-
-void sys_krhino_ticks_to_ms_stub(void *arg);
 
 /* ------------------ mutex ------------------ */
 kstat_t sys_krhino_mutex_dyn_create_stub(void *arg);
