@@ -11,9 +11,6 @@ int32_t sys_hal_spi_send_stub(void *arg);
 
 int32_t sys_hal_spi_recv_stub(void *arg);
 
-int32_t sys_hal_spi_send_recv_stub(void *arg);
-
-int32_t sys_hal_spi_finalize_stub(void *arg);
 
 #endif /* HAL_SPI_KSYSCALL_H */
 
