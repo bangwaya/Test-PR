@@ -27,10 +27,7 @@
 #pragma O3
 #define __USED __attribute__((used))
 #elif defined (__GNUC__)
-#pragma GCC optimize ("O3")
-#define __USED __attribute__((used))
-#elif defined (__ICCARM__)
-#define __USED __root
+  
 #endif
 
 
@@ -68,7 +65,7 @@ OS_RESULT _os_mut_release (uint32_t p, OS_ID mutex)                   __svc_indi
 OS_RESULT _os_mut_wait    (uint32_t p, OS_ID mutex, uint16_t timeout) __svc_indirect(0);
 
 #endif
-
+asdad
 
 /*----------------------------------------------------------------------------
  *      Global Variables
